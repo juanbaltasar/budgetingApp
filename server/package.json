@@ -1,0 +1,18 @@
+{
+  "name": "budgetingapp-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "chart.js": "^4.5.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "workbox-core": "^7.3.0",
+    "workbox-precaching": "^7.3.0",
+    "workbox-routing": "^7.3.0",
+    "workbox-strategies": "^7.3.0"
+  },
+  "scripts": {
+    "start": "node index.js"
+  }
+}
