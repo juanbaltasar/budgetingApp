@@ -5,6 +5,6 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
   build: {
-    outDir: 'dist', // Cambia 'dist' por el nombre de la carpeta que desees, por ejemplo: '../server/public'
+    outDir: 'docs', // Cambia 'dist' por el nombre de la carpeta que desees, por ejemplo: '../server/public'
   },
 })
